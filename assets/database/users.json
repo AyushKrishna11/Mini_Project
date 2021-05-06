@@ -1,0 +1,124 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fname": "asd",
+      "lname": "wer",
+      "email": "sdffsdaf@",
+      "password": "1",
+      "dob": "10/28/2020"
+    },
+    {
+      "id": 2,
+      "fname": "asd123",
+      "lname": "wer123",
+      "email": "sdffsdaf@",
+      "password": "1",
+      "dob": "10/28/2020"
+    },
+    {
+      "id": 3,
+      "fname": "asd123456",
+      "lname": "wer123456",
+      "email": "sdffsdaf@",
+      "password": "1",
+      "dob": "10/28/2020"
+    },
+    {
+      "id": 4,
+      "fname": "asd12345687789",
+      "lname": "wer",
+      "email": "sdffsdaf@",
+      "password": "1",
+      "dob": "10/28/2020"
+    },
+    {
+      "id": 5,
+      "fname": "ayush",
+      "lname": "kriushna",
+      "email": "ak@",
+      "password": "1",
+      "dob": "10/28/2020"
+    },
+    {
+      "id": 6,
+      "fname": "chetan",
+      "lname": "raut",
+      "email": "chetanrau@cybage.com",
+      "password": "chetan",
+      "dob": "11/04/2020"
+    },
+    {
+      "id": 7,
+      "fname": "",
+      "lname": "",
+      "email": "",
+      "password": "",
+      "dob": ""
+    },
+    {
+      "id": 8,
+      "fname": "",
+      "lname": "",
+      "email": "",
+      "password": "",
+      "dob": ""
+    },
+    {
+      "id": 9,
+      "fname": "",
+      "lname": "",
+      "email": "",
+      "password": "",
+      "dob": ""
+    },
+    {
+      "id": 10,
+      "fname": "samiksha",
+      "lname": "g",
+      "email": "sam@cybage.com",
+      "password": "sam",
+      "dob": "10/26/2020"
+    },
+    {
+      "id": 11,
+      "fname": "samiksha",
+      "lname": "g",
+      "email": "sam@cybage.com",
+      "password": "sam",
+      "dob": "10/26/2020"
+    },
+    {
+      "id": 12,
+      "fname": "a",
+      "lname": "a",
+      "email": "a@123",
+      "password": "a",
+      "dob": "10/25/2020"
+    },
+    {
+      "id": 13,
+      "fname": "a",
+      "lname": "a",
+      "email": "a@123",
+      "password": "a",
+      "dob": "10/25/2020"
+    },
+    {
+      "id": 14,
+      "fname": "AS",
+      "lname": "as",
+      "email": "CHETAN@123.coma",
+      "password": "a",
+      "dob": "10/26/2020"
+    },
+    {
+      "id": 15,
+      "fname": "sam",
+      "lname": "g",
+      "email": "sam@123",
+      "password": "ww",
+      "dob": "10/26/2020"
+    }
+  ]
+}

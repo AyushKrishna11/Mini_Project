@@ -1,0 +1,107 @@
+@import "./homeVariables";
+@import "./homeMixIn";
+
+#logo{
+   @include forLogo($logo-Height,$logo-Width);
+}
+.carousel .cimg{
+    height:$carou-Height;
+}
+/* Main Body*/
+/* section part */
+.sectionMB{
+    margin-top: 10px;
+}
+.con{
+    background-image:$cont-Bg-Img;
+    background-repeat: $background-repeat;
+    background-size: $background-size;
+}
+.blogMB{
+    @include forBlog($blog-Height,$blog-Width,$blog-Padding-Right);
+    overflow: $overflow;
+}
+.asideMB{
+    width:$asideWidth;
+    background-repeat:$background-repeat;
+    background-size:$background-size;
+}
+#category{
+    margin:$cat-tag-margin;
+}
+.category_content{
+    @include forCat-Tag($text-align,$ca-Tag-Font-Weight,$cat-Tag-BgColor);
+}
+#category button{
+    margin:$cat-tag-margin; 
+}
+#tags{
+    margin:$cat-tag-margin;
+}
+.tag_content{
+    text-align:$text-align;
+    font-weight:$ca-Tag-Font-Weight ;
+    background-color:$cat-Tag-BgColor;
+}
+#tags button{
+    margin:$cat-tag-margin;
+}
+#footer {
+    background:$footer-BgColor;
+}
+#footer a {
+    color:$footer-anchor-Color;
+    background-color: $footer-anchor-BgColor;
+    text-decoration: none !important;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li a i {
+    margin-right:$footer-social-icon-right-margin;
+	font-size:$footer-social-icon-size;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:$footer-text-size;
+	margin-top:$footer-text-top-margin;
+}
+
+/* Search and Create */
+@media all and (max-width:360px){
+    .search{
+        width: 100%;
+    }
+    .create{
+        width: 100%;
+    }
+    .searchcreate{
+        flex-direction: column;
+    }
+}
+
+//------------------------------------------------
+@media all and (max-width:768px)
+{
+    .sectionMB{
+        flex-direction:column;
+        width: 100%;
+    }
+    .blogMB{
+        width: 100%;
+        float: left;
+    }
+    .asideMB{
+        width: 100%;
+        float: left;
+    }
+
+    .title{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+}
+
+
+

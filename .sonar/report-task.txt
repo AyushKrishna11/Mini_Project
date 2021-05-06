@@ -1,0 +1,5 @@
+projectKey=FET2020-chetan_raut
+serverUrl=http://172.27.12.78
+dashboardUrl=http://172.27.12.78/dashboard/index/FET2020-chetan_raut
+ceTaskId=AXW19qpFirXW5IlAPW0J
+ceTaskUrl=http://172.27.12.78/api/ce/task?id=AXW19qpFirXW5IlAPW0J

@@ -1,0 +1,74 @@
+{
+	"metadata": [
+		{
+			"id": 1,
+			"title": "1. 5 Things Most People Learn Too Late In Life",
+			"desc": "Life is a journey of twists and turns, peaks and valleys, mountains to climb and oceans to explore. Good times and bad times. Happy times and sad times. But always, life is a movement forward.",
+			"category": "arts",
+			"tags": ["self help", "life", "Turtles", "arts"],
+			"username" : "Nicolas Cole",
+			"date" : "01/02/2020"
+		},
+		{
+			"id": 2,
+			"title": "2. Top 3 Books for Every Data Science Engineer",
+			"desc": "In college, I was not too fond of textbooks. But since graduating and working full-time, I have found myself collecting books on data science and software engineering to keep at my desk for work. I was developing a small library of references that I can look to when working through a problem or learning about a specific area. The three books I have found the most helpful to date are Clean Code, An Introduction to Statistical Learning, and 40 Algorithms Every Programmer Should Know.",
+			"category": "science",
+			"tags": ["data", "data science","books"],
+			"username" : "Rose Day",
+			"date" : "01/03/2020"
+		},
+		{
+			"id": 3,
+			"title": "3. The Secret of Failure",
+			"desc": "The Secret of Failure EXPLAINED",
+			"category": "team",
+			"tags": ["skills", "life", "Secret"],
+			"username": "chetan",
+			"date": "10/11/2020"
+		},
+		{
+			"id": 4,
+			"title": "4. Hamari Kahani Secret",
+			"desc": "EXPLAINED : An IT professional while getting ready for work, gazed in the mirror and noticed a grey strand of hair.",
+			"category": "arts",
+			"tags": ["life", "attitude", "positive"],
+			"username": "chetan",
+			"date": "10/11/2020"
+		},
+		{
+			"id": 5,
+			"title": "5. Road Less Cycled EXPLAINED",
+			"desc": "SECRET Once a man was riding a cycle and noticed another rider about half a mile ahead of him.",
+			"category": "team",
+			"tags": ["skills", "race", "Audi"],
+			"username": "chetan",
+			"date": "10/11/2020"
+		},
+		{
+			"id": 6,
+			"title": "6. Remember AUDI!",
+			"desc": "I reminded him of the words that he had spoken to me from his wheelchair as I laid helpless in my hospital bed last year with an amoebic liver abscess. ",
+			"category": "arts",
+			"tags": ["attitude", "fearless", "life"],
+			"username": "chetan",
+			"date": "10/11/2020"
+		},
+		{
+			"id": 7,
+			"title": "7. The Rising Sunset",
+			"desc": "One day a professor entered the classroom and asked his students to prepare for a surprise test",
+			"category": "science",
+			"tags": ["luck", "efficiency", "adapted", "customer", "race"]
+		},
+		{
+			"id": 8,
+			"title": "8. Duty in Despair",
+			"desc": "Once during a famine, a desperate man stepped out of his house to earn a living.  He came across a fruit farm",
+			"category": "fiction",
+			"tags": ["bumps", "despair", "adapted", "life", "customer"],
+			"username": "chetan",
+			"date": "10/11/2020"
+		}
+	]
+}

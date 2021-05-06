@@ -1,0 +1,1 @@
+json-server ../database/blogsMetaData.json --port 3004

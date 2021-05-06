@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../js/lib/jquery-3.5.1.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+    <script>
+        $(document).ready(()=>{
+            var blogId = location.search;
+            console.log(blogId);
+            $.ajax({
+          url:"http://localhost:3008/posts" + blogId,
+          method:"GET",
+          success:(posts) =>{
+            console.log("dxfvsdvgdfgdfgdfh");
+               
+                    console.log(posts);
+                      $('#show').append(posts[0].title);
+                      $('#description').append(posts[0].description);
+                 
+                  
+
+             
+             
+            },
+            error:()=>{
+                console.log("dghxfanhdg");
+                
+            }
+              
+           
+        })
+    
+        })
+    </script>
+    
+</head>
+<body>
+    <div id="show"></div><br><br>
+    <div id="description"></div>
+</body>
+</html>

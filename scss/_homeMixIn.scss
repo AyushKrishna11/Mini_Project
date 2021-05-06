@@ -1,0 +1,33 @@
+@import "./homeVariables";
+
+@mixin forLogo($logo-Height,$logo-Width){
+    height:$logo-Height;
+    width:$logo-Width;
+}
+@mixin forBlog($blog-Height,$blog-Width,$blog-Padding-Right){
+    height:$blog-Height;
+    width:$blog-Width;
+    padding-right:$blog-Padding-Right;
+}
+//category and tag content
+@mixin forCat-Tag($cat-TagText-Align,$ca-Tag-Font-Weight,$cat-Tag-BgColor){
+    text-align:$cat-TagText-Align ;
+    font-weight:$ca-Tag-Font-Weight ;
+    background-color:$cat-Tag-BgColor;
+}
+
+
+
+
+
+
+
+@mixin theme($bgcolor,$leftcontent,$rightcontent,$fontfamily,$buttonColor) 
+{
+    background-color: $bgcolor;
+    font-family: $fontfamily;
+        &:hover{
+            background-color: red;
+            font-display :$font;
+        }
+}

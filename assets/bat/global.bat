@@ -1,0 +1,1 @@
+json-server ../database/global.json --port 3000
